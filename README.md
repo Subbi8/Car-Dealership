@@ -1,3 +1,40 @@
+# Car Dealership Website
+
+Welcome to the Car Dealership Website, a full-stack application built using the MERN stack.
+
+## Introduction
+
+This project is a car dealership website that allows users to explore available cars, view details, and make inquiries. It's built with the MERN (MongoDB, Express.js, React, Node.js) stack, utilizing Axios for API requests, CORS for handling cross-origin requests, and Context API for state management.
+
+## Features
+
+- Browse and search for available cars
+- View information for each car
+- User authentication and authorization 
+- Responsive design for various devices
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - Axios for API requests
+  - Context API for state management
+
+- **Backend:**
+  - Node.js with Express.js
+  - MongoDB for database
+  - CORS for cross-origin resource sharing
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps:
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/car-dealership.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
