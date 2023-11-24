@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+
+.loginsignup {
+  width: 100%;
+  background: white;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(80vh - 100px);
+}
+
+.loginsignup-container {
+  width: 580px;
+  min-height: 540px;
+  background: rgb(238, 237, 237);
+  margin: auto;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginsignup-container h1 {
+  margin: 20px 0;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  margin-top: 30px;
+}
+.einput{
+  width: 80px;
+}
+.loginsignup-fields input {
+  height: 50px;
+  width: 100%; 
+  padding: 0 20px;
+  margin: 0;
+  border: 1px solid whitesmoke;
+  outline: none;
+  color: grey;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+
+
+
+.continue,
+.loginsignup-login button {
+  width: 250px;
+  height: 50px;
+  color: white;
+  background: red;
+  margin-top: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.continue:hover,
+.loginsignup-login button:hover {
+  background: darkred;
+}
+
+.loginsignup-login {
+  margin-top: 20px;
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.loginsignup-login span {
+  color: red;
+  font-weight: 600;
+}
+
+.loginsignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  color: darkgray;
+  font-size: 18px;
+  font-weight: 500;
+}
